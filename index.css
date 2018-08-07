@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-full {
+    position: absolute;
+    background-color: blueviolet;
+    width: 30%;
+    height: 100%;
+    transition: all 1s ease-in-out;
+    top: 0;
+    right: 70%;
+}
+
+.wrapper {
+    position: relative;
+    width: 60%;
+    height: 60%;
+    border: 2px solid black;
+}
+
+.box-clicked {
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    transition: all 1s ease-in-out;
+}
